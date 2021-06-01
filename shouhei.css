@@ -1,0 +1,115 @@
+ .head {
+     border: 5px solid black;
+    }
+
+  .navbar {
+     background-color:#eb07e3;
+     overflow: hidden;
+     margin-top: 10px;
+     width: 100%;
+  }
+
+  .navbar a {
+      color: #ffffff;
+      text-align: center;
+      font-size: 16px;
+      padding: 14px 16px;
+      float: left;
+      text-decoration: none;
+   }
+
+  .navsub {
+      float: left;
+      overflow: hidden;
+  }
+ 
+   .navsub .navsubbtn{
+    border: none;
+    outline: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    padding: 14px 16px;
+    margin: 0;
+    background-color: inherit;
+    font-family: inherit;
+   }
+
+   .navcontent {
+       display: none;
+       position: absolute;
+       left: 0;
+       width: 100%;
+       background-color:#eb07e3;
+       z-index: 1;
+   }
+
+   .navbar a:hover, .navsub:hover .navsubbtn{
+       background-color: green;
+       color:black
+   }
+ 
+   .navcontent a {
+       color:white;
+       /* float:left ; */
+       text-decoration: none;
+   }
+   .navcontent a:hover {
+       background-color: green;
+       color:black
+   }
+
+   .navsub:hover .navcontent {
+       display: block;
+   }
+
+   .left {
+       width: 25%;
+   }
+
+   .article {
+       width: 50%;
+       text-align: center;
+       float:center
+   }
+
+   .right {
+       width: 25%;
+   }
+   
+   
+   .left, .article, .right{
+       border: 3px solid black;margin: 3px;
+
+   }
+    
+
+   .foot {
+       text-align:justify;
+       height: 100px;
+   }
+   
+   .main {
+       display: flex; border: 3px solid pink;
+   }
+
+   .title a {
+       color:red;
+       font-size: 20px;
+       }
+
+    .title a:hover {
+        color:black
+    }
+
+   .mg{border: 2px solid black;
+        margin: 10px;
+   }
+
+   .foot {
+       border: 3px solid pink;
+       text-align: center;
+       font-family: Arial, Helvetica, sans-serif;
+       font-style: normal;
+       margin: 5px;
+   }
